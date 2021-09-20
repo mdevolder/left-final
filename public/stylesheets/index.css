@@ -1,0 +1,25 @@
+.before {
+  position: absolute;
+  width: 1200px;
+  max-width: 100%;
+  height: 100px;
+  top: -100px;
+  background-image: url(/images/footer.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+.before-footer-container {
+  background-image: url(/images/footer.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  top: -100px;
+  background-position: right bottom;
+}
+
+.bg-dark {
+  background-color: rgba(76, 89, 100, 100) !important;
+}
