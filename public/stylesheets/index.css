@@ -1,25 +1,94 @@
-.before {
-  position: absolute;
-  width: 1200px;
-  max-width: 100%;
-  height: 100px;
-  top: -100px;
-  background-image: url(/images/footer.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right bottom;
+* {
+  font-family: 'Raleway', sans-serif;
 }
-
 .before-footer-container {
+  content: '';
   background-image: url(/images/footer.svg);
-  background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 0;
+  padding-top: 13.33%;
   background-size: contain;
-  top: -100px;
-  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: block;
+  background-color: none;
 }
 
-.bg-dark {
+.bg-cream {
+  background-color: rgba(223, 207, 170, 100);
+}
+.bg-dark,
+.btn-dark {
   background-color: rgba(76, 89, 100, 100) !important;
 }
+
+.faq-accordian-item {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-accordian-item .accordian-button {
+  border-radius: calc(00.25rem - 1px);
+}
+
+.form-floating > textarea {
+  height: calc(7rem + 2px) !important;
+}
+
+.paral {
+  /* height: 750px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%; */
+
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* height: 63vw; */
+  /* padding-top: 62.65%; */
+}
+
+.paralsec1 {
+  height: 63vw;
+  background-image: url(/images/240502638_100240509075770_6508111511677532382_n.jpeg);
+}
+
+.paral-title {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.paralsec2 .paral-title {
+  background-color: inherit;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .paral {
+    /* height: 750px; */
+    /* height: 63vw; */
+    /* padding-top: 62.65%; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .paralsec2 {
+    background-image: url(/images/240500227_100242965742191_8317892088312205439_n.jpeg);
+    height: 75vw;
+  }
+
+  .paralsec2 .paral-title {
+    background-color: rgba(0, 0, 0, 0.25);
+    color:white;
+  }
+}
+
+
+
+
+
+
