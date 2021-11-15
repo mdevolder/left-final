@@ -45,6 +45,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  -webkit-background-size: cover;
   /* height: 63vw; */
   /* padding-top: 62.65%; */
 }
@@ -67,6 +68,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  .paralsec2 {
+    background-image: url(/images/240500227_100242965742191_8317892088312205439_n.jpeg);
+    height: 75vw;
+  }
+
+  .paralsec2 .paral-title {
+    background-color: rgba(0, 0, 0, 0.25);
+    color:white;
+  }
+}
+
+@media screen and (min-width: 1025px) {
   .paral {
     /* height: 750px; */
     /* height: 63vw; */
@@ -74,6 +87,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
+    -webkit-background-size: cover;
   }
 
   .paralsec2 {
