@@ -35,22 +35,22 @@
   height: calc(7rem + 2px) !important;
 }
 
-@media (hover: none) {
+.paral {
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+}
+
+@media (hover: hover) {
   .paral {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     -webkit-background-size: cover;
   }
-}
-
-.paral {
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
 }
 
 .paralsec1 {
